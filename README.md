@@ -1,4 +1,4 @@
-# 🌍 Religion & Social Interactions — Survey Analysis
+# 🌍 Religion & Social Interactions - Survey Analysis
 
 An international hackathon project analyzing how religious beliefs and affiliations influence social interactions, trust, and attitudes across multiple countries. Built collaboratively during a hackathon, this repository contains my personal contribution to the data analysis pipeline.
 
@@ -36,9 +36,9 @@ The dataset was provided as part of an **international hackathon** and is not pu
 
 ## 🔧 Tech Stack
 
-- **Python** — pandas, numpy
-- **Visualization** — matplotlib, seaborn
-- **Analysis** — statistical correlation, group-wise imputation, feature engineering
+- **Python** - pandas, numpy
+- **Visualization** - matplotlib, seaborn
+- **Analysis** - statistical correlation, group-wise imputation, feature engineering
 
 ---
 
@@ -46,8 +46,8 @@ The dataset was provided as part of an **international hackathon** and is not pu
 
 | File | Description |
 |---|---|
-| `oskar.ipynb` | Main analysis notebook — EDA, feature engineering, correlation analysis |
-| `oskar2.ipynb` | Extended analysis — model preparation, income standardization |
+| `oskar.ipynb` | Main analysis notebook - EDA, feature engineering, correlation analysis |
+| `oskar2.ipynb` | Extended analysis - model preparation, income standardization |
 | `convert_currencies.py` | PPP-based income conversion across countries |
 | `split_by_religions.py` | Splits dataset by religious group for subgroup analysis |
 | `standardize_dataset.py` | Data cleaning and standardization pipeline |
@@ -56,10 +56,10 @@ The dataset was provided as part of an **international hackathon** and is not pu
 
 ## 🌐 Analysis Highlights
 
-- **Income normalization** — converted income brackets from PLN, USD, and GBP to a common EUR-based PPP index for fair cross-country comparison
-- **Group-wise imputation** — missing values filled using median per country, religion, gender and age group
-- **Feature engineering** — created composite scores for social trust, discrimination frequency, and religiosity strength
-- **Subgroup analysis** — compared attitudes across 7 religious groups including Christianity, Islam, Judaism, Buddhism and Atheism
+- **Income normalization** - converted income brackets from PLN, USD, and GBP to a common EUR-based PPP index for fair cross-country comparison
+- **Group-wise imputation** - missing values filled using median per country, religion, gender and age group
+- **Feature engineering** - created composite scores for social trust, discrimination frequency, and religiosity strength
+- **Subgroup analysis** - compared attitudes across 7 religious groups including Christianity, Islam, Judaism, Buddhism and Atheism
 
 ---
 
